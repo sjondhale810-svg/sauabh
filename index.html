@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Saurabh Jondhale — BSc Computer Science student and web developer. View my portfolio, skills, and projects.">
+    <title>Saurabh Jondhale | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div class="logo">Saurabh<span>.</span></div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-right">
+            <button id="theme-toggle" aria-label="Toggle Dark/Light Mode">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+            <button class="hamburger" id="hamburger" aria-label="Open navigation menu" aria-expanded="false">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Saurabh Jondhale</span></h1>
+            <h2>BSc Computer Science Student & Web Developer</h2>
+            <p>I build modern, responsive, and interactive web applications. Let's create something amazing together.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary-btn">View Projects</a>
+                <a href="#contact" class="btn secondary-btn">Contact Me</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="image-placeholder" role="img" aria-label="Astronaut avatar illustration">
+                <i class="fa-solid fa-user-astronaut"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Hello! I am Saurabh Jondhale, a passionate BSc Computer Science student with a strong interest in web development. I love turning complex problems into simple, beautiful, and intuitive designs.</p>
+                
+                <h3>Education</h3>
+                <p><i class="fa-solid fa-graduation-cap"></i> BSc Computer Science - Currently Pursuing</p>
+                
+                <h3>Career Goals</h3>
+                <p>My goal is to become a full-stack developer and contribute to innovative tech solutions that make a positive impact.</p>
+                
+                <h3>Achievements & Certificates</h3>
+                <ul class="achievements-list">
+                    <li><i class="fa-solid fa-award"></i> Completed Web Development Bootcamp</li>
+                    <li><i class="fa-solid fa-award"></i> Built multiple real-world projects</li>
+                    <li><i class="fa-solid fa-certificate"></i> Certified in Responsive Web Design</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-container">
+            <!-- HTML -->
+            <div class="skill-card">
+                <i class="fa-brands fa-html5 skill-icon" style="color: #E34F26;"></i>
+                <h3>HTML</h3>
+                <div class="progress-bar"><div class="progress" data-width="90"></div></div>
+            </div>
+            <!-- CSS -->
+            <div class="skill-card">
+                <i class="fa-brands fa-css3-alt skill-icon" style="color: #1572B6;"></i>
+                <h3>CSS</h3>
+                <div class="progress-bar"><div class="progress" data-width="85"></div></div>
+            </div>
+            <!-- JavaScript -->
+            <div class="skill-card">
+                <i class="fa-brands fa-js skill-icon" style="color: #F7DF1E;"></i>
+                <h3>JavaScript</h3>
+                <div class="progress-bar"><div class="progress" data-width="75"></div></div>
+            </div>
+            <!-- Python -->
+            <div class="skill-card">
+                <i class="fa-brands fa-python skill-icon" style="color: #3776AB;"></i>
+                <h3>Python</h3>
+                <div class="progress-bar"><div class="progress" data-width="70"></div></div>
+            </div>
+            <!-- GitHub -->
+            <div class="skill-card">
+                <i class="fa-brands fa-github skill-icon github-icon"></i>
+                <h3>GitHub</h3>
+                <div class="progress-bar"><div class="progress" data-width="80"></div></div>
+            </div>
+            <!-- VS Code -->
+            <div class="skill-card">
+                <i class="fa-solid fa-code skill-icon" style="color: #007ACC;"></i>
+                <h3>VS Code</h3>
+                <div class="progress-bar"><div class="progress" data-width="95"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-container">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <div class="project-img placeholder-img">
+                    <i class="fa-solid fa-briefcase"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Portfolio Website</h3>
+                    <p>A modern, responsive portfolio website with a dark/light mode toggle to showcase my skills and projects.</p>
+                    <div class="tech-stack">
+                        <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                    </div>
+                    <a href="#" class="btn primary-btn small-btn">Live Demo</a>
+                    <a href="#" class="btn secondary-btn small-btn">Source Code</a>
+                </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="project-card">
+                <div class="project-img placeholder-img">
+                    <i class="fa-solid fa-dice-four"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Ludo Game</h3>
+                    <p>A web-based Ludo game built from scratch using HTML, CSS, and Vanilla JavaScript with interactive UI.</p>
+                    <div class="tech-stack">
+                        <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                    </div>
+                    <a href="#" class="btn primary-btn small-btn">Live Demo</a>
+                    <a href="#" class="btn secondary-btn small-btn">Source Code</a>
+                </div>
+            </div>
+            <!-- Project 3 -->
+            <div class="project-card">
+                <div class="project-img placeholder-img">
+                    <i class="fa-solid fa-calculator"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Calculator App</h3>
+                    <p>A fully functional calculator app with a clean interface for basic mathematical operations.</p>
+                    <div class="tech-stack">
+                        <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                    </div>
+                    <a href="#" class="btn primary-btn small-btn">Live Demo</a>
+                    <a href="#" class="btn secondary-btn small-btn">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-container">
+            <form id="contact-form" class="contact-form" action="https://formsubmit.co/sjondhale810@gmail.com" method="POST">
+                <div class="input-group">
+                    <input type="text" id="name" name="name" placeholder="Your Name" required autocomplete="name">
+                </div>
+                <div class="input-group">
+                    <input type="email" id="email" name="email" placeholder="Your Email" required autocomplete="email">
+                </div>
+                <div class="input-group">
+                    <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <!-- FormSubmit settings -->
+                <input type="hidden" name="_subject" value="New message from Portfolio Website!">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="table">
+                <input type="hidden" name="_next" value="">
+                <div id="form-feedback" class="form-feedback" aria-live="polite"></div>
+                <button type="submit" class="btn primary-btn submit-btn">Send Message</button>
+            </form>
+            <div class="social-links">
+                <a href="#" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/sjondhale810-svg" aria-label="GitHub" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+                <a href="#" aria-label="Twitter" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Saurabh Jondhale. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
